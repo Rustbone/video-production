@@ -10,9 +10,10 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="wrapper__content">
-      <header class="header">
-        <div class="container header__container">
+
+    <section class="wrapper__content">
+      <div class="container">
+       <header class="header">
           <a href="#" class="logo">
             <img src="./img/logo.png" alt="video production" class="logo__pic">
           </a>
@@ -33,13 +34,11 @@
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
             <div class="contacts__info">График работы</div>
           </address>
-        </div>
-      </header>
-      <div class="maincontent">
+       </header>
         <section class="hello">
-          <div class="container hello__container">
+          <div class="hello__container">
             <h1 class="hello__title">снимем для вас креативное видео</h1>
-            <div class="hello__subtitle">Креативный видеопродакшн полного цикла</div>
+            <h2 class="hello__subtitle">Креативный видеопродакшн полного цикла</h2>
             <a href="#" class="button button--hello">Подробнее</a>
           </div>
         </section>
@@ -55,7 +54,7 @@
                       <div class="offers__feature-text">От <b>5</b> человек на проект</div>
                     </li>
                     <li class="offers__feature">
-                      <div class="offers__feature-text2"><b>28</b> дней работы в среднем</div>
+                      <div class="offers__feature-text"><b>28</b> дней работы в среднем</div>
                     </li>
                   </ul>
                   <p class="offers__text">Креатив и производство рекламы, документального и корпоративного контента.</p>
@@ -71,7 +70,7 @@
                       <div class="offers__feature-text">От <b>7</b> человек на проект</div>
                     </li>
                     <li class="offers__feature">
-                      <div class="offers__feature-text2"><b>21</b> дней работы в среднем</div>
+                      <div class="offers__feature-text"><b>21</b> дней работы в среднем</div>
                     </li>
                   </ul>
                   <p class="offers__text">Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!</p>
@@ -87,7 +86,7 @@
                       <div class="offers__feature-text">От <b>2</b> человек на проект</div>
                     </li>
                     <li class="offers__feature">
-                      <div class="offers__feature-text2"><b>30</b> дней работы в среднем</div>
+                      <div class="offers__feature-text"><b>30</b> дней работы в среднем</div>
                     </li>
                   </ul>
                   <p class="offers__text">Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.</p>
@@ -99,10 +98,10 @@
         </section>
         <section class="news">
           <div class="container news__container">
-            <h2 class="title">новости и акции</h2>
+            <h2 class="section__title">новости и акции</h2>
             <ul class="news__list">
               <li class="news__item">
-                <img src="" alt="" class="news__img">
+                <img src="./img/camera.jpg" alt="Снимем клип" class="news__img">
                 <div class="news__content">
                   <div class="news__date">Декабрь 2019</div>
                   <h3 class="news__title">Снимем ваш клип на 50% дешевле</h3>
@@ -110,7 +109,7 @@
                 </div>
               </li>
               <li class="news__item">
-                <img src="" alt="" class="news__img">
+                <img src="./img/wedding.jpg" alt="Акция молодоженам" class="news__img">
                 <div class="news__content">
                   <div class="news__date">Декабрь 2019</div>
                   <h3 class="news__title">Акция для молодоженов 30%</h3>
@@ -121,7 +120,7 @@
             <div class="pagination">
               <span class="pagination__text">Страница 1 из 7</span>
               <ul class="pagination__list">
-                <li class="pagination__item">
+                <li class="pagination__item pagination__item--active">
                   <a href="" class="pagination__link">1</a>
                 </li>
                 <li class="pagination__item">
@@ -148,22 +147,28 @@
         </section>
         <section class="about">
           <div class="container about__container">
-            <img src="" alt="" class="about__img">
-            <div class="about__content">
-              <h2 class="title title--dark">о нас</h2>
-              <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
-              <a href="#" class="button">Подробнее</a>
+            <div class="about__all">
+              <img src="./img/cameraman.jpg" alt="" class="about__img">
+              <div class="about__content">
+               <h2 class="title title--dark">о нас</h2>
+               <div class="about__text">
+                 <p>
+                  Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                 </p> 
+               </div>
+                <a href="#" class="button button--about">Подробнее</a>
+               </div>
             </div>
           </div>
         </section>
       </div>
-    </div>
+    </section>
     <footer class="footer">
       <div class="container footer__container">
         <a href="#" class="logo">
-          <img src="" alt="" class="logo__pic">
+          <img src="./img/logo.png" alt="Video-production" class="logo__pic">
         </a>
-        <nav class="menu">
+        <nav class="menu menu--footer">
           <ul class="menu__list">
             <li class="menu__item">
               <a href="#" class="menu__link">Главная</a>
@@ -177,24 +182,24 @@
           </ul>
         </nav>
         <ul class="social">
-          <li class="social__item">
+          <li class="social__item social__item--icon--tg">
             <a href="#" class="social__link">
-              <img src="" alt="" class="social__img">
+              <img src="./img/telegram.png" alt="telegram" class="social__img">
             </a>
           </li>
-          <li class="social__item">
+          <li class="social__item social__item--icon--vk">
             <a href="#" class="social__link">
-              <img src="" alt="" class="social__img">
+              <img src="./img/vk.png" alt="vk" class="social__img">
             </a>
           </li>
-          <li class="social__item">
+          <li class="social__item social__item--icon--f">
             <a href="#" class="social__link">
-              <img src="" alt="" class="social__img">
+              <img src="./img/f.png" alt="facebook" class="social__img">
             </a>
           </li>
-          <li class="social__item">
+          <li class="social__item social__item--icon--in">
             <a href="#" class="social__link">
-              <img src="" alt="" class="social__img">
+              <img src="./img/in.png" alt="instagram" class="social__img">
             </a>
           </li>
         </ul>
