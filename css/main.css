@@ -52,8 +52,6 @@ p {
 
 img {
 	display: block;
-	max-width: 100%;
-	max-height: 100%;
 }
 
 .wrapper {
@@ -78,12 +76,16 @@ img {
   margin: 0;
 }
 
+.hero__pic { 
+  position: absolute;
+  width: 100%;
+  
+  top: -20%;
+  
+ }
+
 .header__container {
   position: relative;
-}
-
-.hero__pic {
-  position: absolute;;
 }
 
 .logo {
@@ -169,6 +171,7 @@ img {
 }
 
 .hello__container {
+  position: relative;
   width: 100%;
   padding: 0;
   text-align: center;
@@ -384,7 +387,15 @@ img {
 }
 
 .about {
+  position: relative;
   margin-bottom: 53px;
+}
+
+.bottom__pic {
+  position: absolute;
+  z-index: -1;
+  top: -70%;
+  width: 100%;
 }
 
 .about__img:before {
@@ -410,6 +421,7 @@ img {
   font-weight: 800;
   font-size: 36px;
   color: #000000;
+  text-transform: uppercase;
   margin-bottom: 37px;
 }
 
