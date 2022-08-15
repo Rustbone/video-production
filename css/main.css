@@ -80,7 +80,7 @@ img {
   position: absolute;
   width: 100%;
   
-  top: -20%;
+  top: 0;
   
  }
 
@@ -478,4 +478,28 @@ img {
 
 .social__item--icon--tg .social__link:hover {
   background-image: url("./img/t-hover.png");
+}
+
+.social__item--icon--vk .social__link {
+  background-image: url("./img/vk.png");
+}
+
+.social__item--icon--vk .social__link:hover {
+  background-image: url("./img/vk-hover.png");
+}
+
+.social__item--icon--f .social__link {
+  background-image: url("./img/f.png");
+}
+
+.social__item--icon--f .social__link:hover {
+  background-image: url("./img/f-hover.png");
+}
+
+.social__item--icon--in .social__link {
+  background-image: url("./img/in.png");
+}
+
+.social__item--icon--in .social__link:hover {
+  background-image: url("./img/in-hover.png");
 }
