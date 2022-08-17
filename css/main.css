@@ -79,7 +79,7 @@ img {
 .hero__pic { 
   position: absolute;
   width: 100%;
-  
+  text-align: center;
   top: 0;
   
  }
@@ -99,7 +99,7 @@ img {
 
 .menu {
   position: absolute;
-  top: 47px;
+  top: 41px;
   left: 439px;
 }
 
@@ -112,7 +112,7 @@ img {
 .menu__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 54px;
+  margin-right: 50px;
   height: 19px;
 }
 
@@ -155,9 +155,8 @@ img {
 }
 
 .contacts__info {
-  top: 60.14px;
-  
- 
+  line-height: 0.6;
+  margin-right: 3px;
   font-size: 13px;
   text-decoration: underline;
   color: #FF3D00;
@@ -182,7 +181,8 @@ img {
   font-size: 72px;
   font-weight: 800;
   line-height: 98px;
-  margin-bottom: 17.5px;
+  margin-top: 114px;
+  margin-bottom: 18px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -208,6 +208,7 @@ img {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
   align-items: center;
 }
 
@@ -225,6 +226,7 @@ img {
   color: #ff5500;
   border: 2px solid #ff5500;
   background: #FFFFFF;
+  line-height: 1;
 }
 
 .button--light:hover {
@@ -233,7 +235,7 @@ img {
 }
 
 .offers {
-  margin-bottom: 180px;
+  margin-bottom: 175px;
 }
 
 .offers__item {
@@ -250,9 +252,15 @@ img {
   margin-right: 0;
 }
 
-.offers__img {
+.offers__img-ad {
   position: absolute;
   top: 36px;
+  left: 29px;
+}
+
+.offers__img-clip, .offers__img-wedding {
+  position: absolute;
+  top: 40px;
   left: 29px;
 }
 
@@ -263,7 +271,7 @@ img {
 }
 
 .offers__title {
-  margin-top: 106px;
+  margin-top: 110px;
   height: 44px;
   font-weight: bold;
   font-size: 32px;
@@ -308,9 +316,12 @@ img {
 }
 
 .section__title {
+  height: 49px;
   font-size: 36px;
   font-weight: 800;
   margin-bottom: 51px;
+  text-transform: uppercase;
+  line-height: 49.03px;
 }
 
 .news__item {
@@ -322,7 +333,7 @@ img {
 }
 
 .news__item:first-child {
-  margin-right: 22px;
+  margin-right: 21px;
 }
 
 .news__img {
@@ -337,14 +348,14 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 15px 30px;
+  padding: 0 30px;
   height: 140px;
 }
 
 .news__date {
   font-size: 14px;
   line-height: 21px;
-  margin-bottom: 12,5px;
+  margin-bottom: 12px;
 }
 
 .news__title {
@@ -354,7 +365,12 @@ img {
   margin-bottom: 5px;
 }
 
+.news__text {
+  width: 442px;
+  height: 42px;
+}
 .pagination {
+
   text-align: center;
 }
 
@@ -364,12 +380,13 @@ img {
 }
 
 .pagination__text {
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .pagination__item {
   display: inline-block;
   vertical-align: middle;
+  margin-right: 0;
 }
 
 .pagination__item--active .pagination__link {
@@ -388,13 +405,13 @@ img {
 
 .about {
   position: relative;
-  margin-bottom: 53px;
+  margin-bottom: 56px;
 }
 
 .bottom__pic {
   position: absolute;
   z-index: -1;
-  top: -70%;
+  top: -80%;
   width: 100%;
 }
 
@@ -406,14 +423,15 @@ img {
 }
 
 .about__content {
+  height: 455px;
   background: #FFFFFF;
   padding: 70px 202px 66px 81px;
   display: inline-block;
   vertical-align: top;
   width: 785px;
   border-radius: 5px;
-  margin-left: 355px;
-  margin-top: -405px;
+  margin-left: 354px;
+  margin-top: -408px;
   
 }
 
@@ -428,6 +446,7 @@ img {
 .about__text {
   color: #060606;
   margin-bottom: 43px;
+  line-height: 27px;
 }
 
 .about__text p {
@@ -438,13 +457,24 @@ img {
   margin-bottom: 0;
 }
 
+.button--about {
+  width: 168px;
+  background: #FF5400;
+  padding: 18px 40px;
+}
+
 .footer__container {
   border-top: 1px solid #606060;;
   height: 152px;
   position: relative;
 }
 
+.logo--footer {
+  top: 40px;
+}
+
 .menu--footer {
+  top: 54px;
   left: 328px;
 }
 
@@ -457,7 +487,7 @@ img {
 .social__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 .social__item:last-child {
@@ -502,6 +532,10 @@ img {
 
 .social__item--icon--in .social__link:hover {
   background-image: url("../img/in-hover.png");
+}
+
+.contacts--footer {
+  top: 40px;
 }
 
 .services__head__container {
