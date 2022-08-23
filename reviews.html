@@ -132,8 +132,7 @@
                 </div>
                 <div class="reviews__date">Ноябрь 2019</div>
               </div>
-            </li>
-            
+            </li>            
           </ul>
           <div class="pagination services__pagination">
             <span class="pagination__text">Страница 1 из 7</span>
@@ -163,53 +162,75 @@
           </div>
         </div>
       </main>
-      <section class="partners">
-        <div class="container">
-          <h2 class="partners__title">Партнеры</h2>
-          <ul class="partners__list">
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/partners/divico.png" alt="divico__logo">
-              </a>
-            </li>
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/partners/ds.png" alt="ds__logo">
-              </a>
-            </li>
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/partners/park.png" alt="park__logo">
-              </a>
-            </li>
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/partners/zvibes.png" alt="zvibes__logo">
-              </a>
-            </li>
-          </ul>
-          <ul class="partners__list">
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/partners/rosvideo.png" alt="rosvideo__logo">
-              </a>
-            </li>
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/partners/zavod.png" alt="zavod__logo">
-              </a>
-            </li>
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/partners/pixel.png" alt="pixel__logo">
-              </a>
-            </li>
-            <li class="partners__item">
-              <a href="#" class="partners__link">
-                <img src="./img/partners/expotv.png" alt="expotv__logo">
-              </a>
-            </li>
-          </ul>
+      <section class="sale">
+        <div class="container sale__container">
+          <h2 class="sale__title">Скидка <span class=sale__color>20%</span> на съемку мероприятий</h2>      
+        </div>
+      </section>
+      <section class="inner-section">
+        <div class="container inner-section__container">
+          <h2 class="inner-section__title">Оставьте отзыв</h2>
+          <form class="form">
+            <div class="form__row">
+              <input type="text" class="form__input" name="name" placeholder="Имя">
+              <input type="text" class="form__input" name="profile" placeholder="Ссылка на профиль VK">
+            </div>
+            <div class="form__row">
+              <textarea name="comment" class="form__input form__input--textarea" 
+              placeholder="Напишите свой честный отзыв ;)"></textarea>
+            </div>
+            <div class="form__row form__controls">
+              <div class="form__controls-title">Какими услугами компании пользуетесь?</div>
+              <ul class="form__controls-list control">
+                <li class="control__item">
+                  <label class="control__elem">
+                    <input type="checkbox" name="services" class="control__checkbox">
+                    <div class="control__tag">Съемки клипа</div>
+                  </label>
+                </li>
+                <li class="control__item">
+                  <label class="control__elem">
+                    <input type="checkbox" name="services" class="control__checkbox">
+                    <div class="control__tag">Съемки рекламы</div>
+                  </label>
+                </li>
+                <li class="control__item">
+                  <label class="control__elem">
+                    <input type="checkbox" name="services" class="control__checkbox">
+                    <div class="control__tag">Съемка свадьбы</div>
+                  </label>
+                </li>
+                <li class="control__item">
+                  <label class="control__elem">
+                    <input type="checkbox" name="services" class="control__checkbox">
+                    <div class="control__tag">Студийная съемка</div>
+                  </label>
+                </li>
+                <li class="control__item">
+                  <label class="control__elem">
+                    <input type="checkbox" name="services" class="control__checkbox">
+                    <div class="control__tag">Никакими</div>
+                  </label>
+                </li>
+                <li class="control__item">
+                  <label class="control__elem">
+                    <input type="checkbox" name="services" class="control__checkbox">
+                    <div class="control__tag">Видео клип</div>
+                  </label>
+                </li>
+                <li i class="control__item">
+                  <label class="control__elem">
+                    <input type="checkbox" name="services" class="control__checkbox">
+                    <div class="control__tag">Другое</div>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="form__row form__row--buttons">
+              <button type="reset" class="button button--black">Очистить</button>
+              <button type="submit" class="button button--red">Отправить</button>
+            </div>
+          </form>
         </div>
       </section>
     </div>
