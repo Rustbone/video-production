@@ -1,0 +1,73 @@
+.offers {
+  margin-bottom: 179px;
+}
+
+.offers__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__item {
+  position: relative;
+  min-height: 476px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  width: calc(100% / 3 - 18px);
+}
+
+.offers__item:last-child {
+  margin-right: 0;
+}
+
+.offers__img-ad {
+  position: absolute;
+  top: 36px;
+  left: 29px;
+}
+
+.offers__img-clip, .offers__img-wedding {
+  position: absolute;
+  top: 40px;
+  left: 29px;
+}
+
+.offers__content {
+  position: absolute;
+  margin: 36px 34px 53px 22px;
+  color: #000000;
+}
+
+.offers__title {
+  margin-top: 110px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 17px;
+
+}
+
+.offers__features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__feature {
+  max-width: 102px;
+  color: #666666;
+  line-height: 125%;
+}
+
+.offers__feature:last-child {
+  max-width: 123px;
+}
+
+.offers__text {
+  margin-top: 25px;
+  margin-bottom: 0;
+  max-width: 306px;
+  max-height: 66px;
+  font-size: 14px;
+  line-height: 22px;
+  align-items: center;
+  color: #666666;
+}

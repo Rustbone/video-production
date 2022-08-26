@@ -1,0 +1,66 @@
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+.button {
+  display: flex;
+  height: 55px;
+
+  background: #FF3D00;
+  border-radius: 35px;
+  padding: 18px 54px;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+
+.button--hello {
+  width: 195px;
+}
+
+.button:hover {
+  background: #ff5500;
+  box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+}
+
+.button--light {
+  color: #ff5500;
+  border: 2px solid #ff5500;
+  background: #FFFFFF;
+  line-height: 1;
+}
+
+.button--light:hover {
+  color: #FFFFFF;
+  background: #ff5500;
+}
+
+.button--light {
+  margin-top: 30px;
+  margin-left: 2px;
+  width: 198px;
+}
+
+.button--about {
+  width: 168px;
+  background: #FF5400;
+  padding: 18px 40px;
+}
+
+.button--black {
+  display: flex;
+  width: 168px;
+  background: #8E8E8E;
+}
+
+.button--red {
+  width: 168px;
+}

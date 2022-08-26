@@ -1,0 +1,39 @@
+.services {
+  margin-bottom: 63px;
+}
+
+.service {
+  display: flex;
+  margin: 50px 0;
+}
+
+.service__img {
+  width: 42%;
+  margin-right: 3%;
+}
+
+.service__content {
+  max-width: 652px;
+  flex: 1;
+  padding-left: 3px;
+}
+
+.service__title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px 0 29px;
+  color: #000000;
+}
+
+.service__desc {
+  line-height: 1.7;
+  margin-bottom: 33px;
+}
+
+.button--service {
+  margin: 0;
+}
+
+.services__pagination {
+  margin-bottom: 40px;
+}

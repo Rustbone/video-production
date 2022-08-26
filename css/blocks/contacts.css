@@ -1,0 +1,80 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-style: normal;
+  text-align: right;
+  padding-top: 8px;
+}
+
+.contacts__taxt {
+  color: #9a9a9a;
+  font-size: 11px;
+}
+
+.contacts__phone {
+  max-width: 191px;
+  max-height: 35px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.contacts__info {
+  position: relative;
+  display: inline-flex;
+  line-height: 0.6;
+  margin-right: 3px;
+  font-size: 13px;
+  text-decoration: underline;
+  color: #FF3D00;
+}
+
+.contacts__info:hover .dropdown__menu {
+  right: 0;
+  opacity: 1;
+}
+
+.dropdown__menu {
+  position: absolute;
+  background: #CDD1D2;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px 18px;
+  width: 160px;
+  top: 100%;
+  right: 9999px;
+  margin-top: 12px;
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+.dropdown__menu:before {
+  content: "";
+  display: inline-flex;
+  left: 88px;
+  right: 0;
+  top: -10px;
+  position: absolute;
+  border: 20px solid transparent;
+  height: 0;
+  width: 0;
+  border-bottom-color: #CDD1D2;
+  border-top-width: 0;
+}
+
+.dropdown__item {
+  color: #1e1f20;
+  line-height: 1.6;
+  text-align: start;
+}
+
+.item-week {
+  font-weight: 700;
+}
+
+.item-break {
+  font-weight: 600;
+}

@@ -1,0 +1,54 @@
+.social {
+  display: flex;
+  margin-right: 74px;
+  padding-bottom: 11px;
+}
+
+.social__item {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  display: block;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+  background: center center no-repeat;
+}
+
+.social__item--icon--tg .social__link {
+  background: url("../../img/icons/sprites.png") -290px -10px;
+}
+
+.social__item--icon--tg .social__link:hover {
+  background: url("../../img/icons/sprites.png") -234px -10px;
+}
+
+.social__item--icon--vk .social__link {
+  background: url("../../img/icons/sprites.png") -402px -10px;
+}
+
+.social__item--icon--vk .social__link:hover {
+  background: url("../../img/icons/sprites.png") -346px -10px;
+}
+
+.social__item--icon--f .social__link {
+  background: url("../../img/icons/sprites.png") -66px -10px;
+}
+
+.social__item--icon--f .social__link:hover {
+  background: url("../../img/icons/sprites.png") -10px -10px;
+}
+
+.social__item--icon--in .social__link {
+  background: url("../../img/icons/sprites.png") -178px -10px;
+}
+
+.social__item--icon--in .social__link:hover {
+  background: url("../../img/icons/sprites.png") -122px -10px;
+}

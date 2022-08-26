@@ -1,0 +1,34 @@
+.header {
+  position: relative;
+  margin: 0;
+}
+
+.hero__pic { 
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+}
+
+.header__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 27px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  display: block;
+  margin-right: 241px;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+
+.header__col--align--right {
+  justify-content: flex-end;
+}
